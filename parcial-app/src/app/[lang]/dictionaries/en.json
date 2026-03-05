@@ -1,0 +1,16 @@
+{
+  "welcome": "Welcome",
+  "profile": "Profile",
+  "nav": {
+    "home": "Home",
+    "profile": "Profile"
+  },
+  "footer": {
+    "text": "Natalia Espitia Muñoz"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "es": "Spanish"
+  }
+}
