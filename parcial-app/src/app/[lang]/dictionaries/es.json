@@ -1,16 +1,17 @@
 {
-  "welcome": "Bienvenido",
-  "profile": "Perfil",
+  "welcome": "Harry potter Personajes",
+  "texthp": "Explora el universo magico de Harry Potter: un listado completo de personajes con su casa datos, especie y datos principales",
   "nav": {
     "home": "Inicio",
     "profile": "Perfil"
   },
   "footer": {
-    "text": "Natalia Espitia Muñoz"
+    "text": "c 2026 Harry Potter. Todos los derechos reservados."
   },
   "language": {
     "label": "Idioma",
     "en": "Inglés",
     "es": "Español"
   }
+  
 }
