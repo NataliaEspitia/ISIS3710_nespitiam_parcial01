@@ -4,6 +4,14 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
+        protocol: "https",
+        hostname: "ik.imagekit.io",
+      },
+      {
+        protocol: "https",
+        hostname: "hp-api.onrender.com",
+      },
+      {
         protocol: 'https',
         hostname: 'www.clipartmax.com',
         port: '',

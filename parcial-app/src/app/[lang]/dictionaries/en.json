@@ -1,16 +1,30 @@
 {
-  "welcome": "Harry potter Characters",
+  "welcome": "Characters of Harry potter ",
   "texthp": "Explore the magical world of Harry Potter: a complete list of characters with their house, species, and key facts.",
   "nav": {
     "home": "Home",
     "profile": "Profile"
   },
   "footer": {
-    "text": "c 2026 Harry Potter. All rights reserved."
+    "text": "© 2026 Harry Potter. All rights reserved.",
+    "text2": "Developed for: ISIS3710"
   },
   "language": {
     "label": "Language",
     "en": "English",
     "es": "Spanish"
+  },
+  "characterDetail": {
+    "house": "House",
+    "species": "Species",
+    "gender": "Gender",
+    "ancestry": "Ancestry",
+    "patronus": "Patronus",
+    "actor": "Actor",
+    "wandWood": "Wand wood",
+    "wandCore": "Wand core",
+    "wandLength": "Wand length",
+    "unknown": "Unknown",
+    "noImage": "No image available"
   }
 }

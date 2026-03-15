@@ -1,28 +1,24 @@
-import type { Locale, Dictionary } from "../dictionaries";
-import Image from "next/image";
+import { getCharacters } from "@/lib/api";
+import Card from "./Card";
 
-interface character {
-    id: number;
-  name: string;
-  image: string;
+type Props = {
+  lang: string;
+};
+
+export default async function CharacterList({ lang }: Props) {
+  const characters = await getCharacters();
+
+  return (
+    <section className="mx-auto max-w-7xl px-6 py-4">
+      <div className="grid grid-cols-1 gap-40 md:grid-cols-2 lg:grid-cols-3">     
+          {characters.map((character) => (
+          <Card
+            key={character.id}
+            character={character}
+            lang={lang}
+          />
+        ))}
+      </div>
+    </section>
+  );
 }
-
-interface ApiResponse {
-    results: character[];
-}
-
-async function getCharacter(): Promise<ApiResponse> {
-  const res = await fetch("https://hp-api.onrender.com/api/characters", {
-    cache: "no-store",
-  });
-
-  return res.json();
-}
-
-//export default async function CharacterList({ lang, dict }: { lang: Locale; dict: Dictionary }) {
-  
-//const members = await getCharacter();
-  //  return ( 
-    //);
-
-//}

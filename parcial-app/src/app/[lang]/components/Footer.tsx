@@ -4,11 +4,11 @@ type Props = { dict: Dictionary };
 
 export default function Footer({ dict }: Props) {
   return (
-    <footer className="bg-[#BBCCBB] text-black p-4 mt-8">
-            <div className='container mx-auto flex justify-between items-center'>
-              {dict.footer.text}
-               -----------------------------------------------------------------------------Desarrollado para: ISIS3710
-            </div>            
+    <footer className="w-full bg-[#BBCCBB] text-black font-bold">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-12 py-3">
+              <span>{dict.footer.text}</span>
+              <span>{dict.footer.text2}</span>
+      </div>            
     </footer>
   );
 }
